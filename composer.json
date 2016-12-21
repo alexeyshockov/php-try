@@ -1,23 +1,21 @@
 {
-    "name":        "alexeyshockov/colada",
-    "type":        "library",
-    "description": "Collections framework for PHP",
-    "keywords":    ["collections", "functional"],
-    "homepage":    "http://github.com/alexeyshockov/colada",
+    "name":        "alexeyshockov/php-try",
+    "description": "Try monad for PHP",
+    "keywords":    ["collections", "functional", "option", "optional", "monad"],
+    "homepage":    "http://github.com/alexeyshockov/php-try",
     "license":     "MIT",
     "support":     {
-        "issues": "https://github.com/alexeyshockov/php-try/issues",
+        "issues": "https://github.com/alexeyshockov/php-try/issues"
     },
     "authors": [
         {
-            "name":     "Alexey Shockov",
+            "name":     "Alexey Shokov",
             "email":    "alexey@shockov.com",
             "homepage": "http://alexey.shockov.com/"
         }
     ],
     "suggest": {
         "alexeyshockov/colada-x": "Optimized callbacks.",
-        "react/partial": "Partial functions.",
         "danielstjules/stringy": "Powerful string manipulations.",
         "lstrojny/functional-php": "Some functional primitives for PHP."
     },
@@ -31,15 +29,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Colada\\": "src/Colada"
+            "PhpTry\\": "src/"
         },
         "files": [
             "src/functions.php"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
-        }
     }
 }
